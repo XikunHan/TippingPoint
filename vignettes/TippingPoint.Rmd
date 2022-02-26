@@ -1,15 +1,18 @@
 ---
 title: "TippingPoint"
-author: "Shengjie Zhang & Xikun Han"
-date: "`r Sys.Date()`"
-output: 
-  rmarkdown::html_vignette:
-    css: TippingPoint.css
+output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{TippingPoint}
   %\VignetteEngine{knitr::rmarkdown}
-  \usepackage[utf8]{inputenc}
+  %\VignetteEncoding{UTF-8}
 ---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
 
 A manual to show the R package `TippingPoint`.
 
@@ -28,13 +31,11 @@ options(width = 150)
 
 
 ```{r data}
-
 # the package can be downloaded from cran and github:
 
 # install.packages("TipingPoint")
 
-
-# 
+# devtools::install_github("XikunHan/TippingPoint")
 
 
 library(TippingPoint)
@@ -192,5 +193,4 @@ The `TippingPoint` package is created based on Liublinska and Rubin's work. For 
 * Liublinska, V. & Rubin, D.B. Sensitivity analysis for a partially missing binary outcome in a two-arm randomized clinical trial. Stat Med 33, 4170-85 (2014).
 * Liublinska, V. (May, 2013) Sensitivity Analyses in Empirical Studies Plagued with Missing Data. PhD Dissertation, Harvard University, https://dash.harvard.edu/handle/1/11124841
 * https://sites.google.com/site/vliublinska/research
-
 

@@ -15,16 +15,12 @@ options(width = 150)
 ```
 
 
-
 ```{r data}
-
 # the package can be downloaded from cran and github:
 
 # install.packages("TipingPoint")
 
-
-# 
-
+# devtools::install_github("XikunHan/TippingPoint")
 
 library(TippingPoint)
 
@@ -43,7 +39,6 @@ head(tippingdata)
 
 
 ```{r basic plot, fig.width=8,fig.height=6}
-
 ## for binary outcome
 
 
@@ -69,8 +64,6 @@ TippingPoint(outcome=tippingdata$binary,treat= tippingdata$treat,
              summary.type = "density", alpha = 0.95, S=1.5, n.grid = 100,
              HistMeanT = c(0.38,0.4), HistMeanC =  c(0.2,0.55))
 
-
-
 # for continuous outcome
 TippingPoint(continuous~treat, data=tippingdata,
              group.infor=TRUE, plot.type = "estimate",ind.values = TRUE,
@@ -92,13 +85,9 @@ TippingPoint(outcome=tippingdata$continuous,treat= tippingdata$treat,
 
 ```
 
-
-
 ## Using imputed data
 
-
 ```{r impute plot, fig.width=8,fig.height=6}
-
 # Load the imputed dataset
 
 data(imputedata)
@@ -168,8 +157,6 @@ TippingPoint(outcome=tippingdata$continuous,treat= tippingdata$treat,
 
 
 ```
-
-
 
 
 
