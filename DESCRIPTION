@@ -1,0 +1,31 @@
+Package: TippingPoint
+Title: Enhanced Tipping Point Displays the Results of Sensitivity
+        Analysis for Missing Data
+Version: 1.2.0
+Author: Shengjie Zhang <zhangshengjie@mrbc-nccd.com>,
+        Xikun Han <hanxikun2017@gmail.com> and
+        Victoria Liublinska <vliublin@g.harvard.edu>
+Maintainer: Xikun Han <hanxikun2017@gmail.com>
+Description: Using the idea of "tipping point" (proposed in
+   Gregory Campbell, Gene Pennello and Lilly Yue(2011)
+   <DOI:10.1080/10543406.2011.550094>) to visualize  the results
+   of sensitivity analysis for missing data, the package provides
+   a set of functions to list out all the possible combinations
+   of the values of missing data in two treatment arms, calculate
+   corresponding estimated treatment effects and p values and draw
+   a colored heat-map to visualize them. It could deal with randomized
+   experiments with a binary outcome or a continuous outcome. In addition,
+   the package provides a visualized method to compare various imputation
+   methods by adding the rectangles or convex hulls on the basic plot.
+Depends: R (>= 3.0.0)
+Imports: ggplot2 (>= 2.0.0), RColorBrewer, reshape2
+Suggests: knitr, rmarkdown, bayesSurv
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Date: 2022-02-22
+RoxygenNote: 7.1.2
+VignetteBuilder: knitr
+NeedsCompilation: no
+Packaged: 2022-02-23 01:53:49 UTC; xih628
+Repository: CRAN
