@@ -1,15 +1,4 @@
----
-title: "TippingPoint"
-author: "Shengjie Zhang & Xikun Han"
-date: "`r Sys.Date()`"
-output: 
-  rmarkdown::html_vignette:
-    css: TippingPoint.css
-vignette: >
-  %\VignetteIndexEntry{TippingPoint}
-  %\VignetteEngine{knitr::rmarkdown}
-  \usepackage[utf8]{inputenc}
----
+
 
 A manual to show the R package `TippingPoint`.
 
