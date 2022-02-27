@@ -1,3 +1,4 @@
 ^staticdocs$
 /doc/
 /Meta/
+inst/doc
