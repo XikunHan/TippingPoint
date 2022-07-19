@@ -14,6 +14,6 @@ check.range <- function(q,q.set) {q[q<=max(q.set) & q>=min(q.set)]}
 #' @noRd
 check_pkg <- function(x) {
   if (! requireNamespace(x, quietly = TRUE)) {
-    stop("Package \"pkg\" must be installed to use this function.", call. = FALSE)
+    stop(paste0("Package \"" , x,"\" must be installed to use this function."), call. = FALSE)
   }
 }

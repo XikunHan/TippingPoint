@@ -2,3 +2,8 @@
 /doc/
 /Meta/
 inst/doc
+.Rproj.user
+TippingPoint_1.2.0.tar.gz
+TippingPoint.Rcheck/
+.gitignore
+.Rbuildignore

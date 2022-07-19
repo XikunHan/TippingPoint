@@ -2,9 +2,9 @@ Package: TippingPoint
 Title: Enhanced Tipping Point Displays the Results of Sensitivity
         Analysis for Missing Data
 Version: 1.2.0
-Author: Shengjie Zhang <zhangshengjie@mrbc-nccd.com>,
-        Xikun Han <hanxikun2017@gmail.com> and
-        Victoria Liublinska <vliublin@g.harvard.edu>
+Author: Shengjie Zhang,
+        Xikun Han,
+        Victoria Liublinska
 Maintainer: Xikun Han <hanxikun2017@gmail.com>
 Description: Using the idea of "tipping point" (proposed in
    Gregory Campbell, Gene Pennello and Lilly Yue(2011)
@@ -24,9 +24,6 @@ URL: https://github.com/XikunHan/TippingPoint
 License: GPL-2
 Encoding: UTF-8
 LazyData: true
-Date: 2022-02-22
+Date: 2022-04-08
 RoxygenNote: 7.1.2
 VignetteBuilder: knitr
-NeedsCompilation: no
-Packaged: 2022-02-23 01:53:49 UTC; xih628
-Repository: CRAN

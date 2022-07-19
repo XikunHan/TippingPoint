@@ -12,7 +12,7 @@ The `TippingPoint` R package aims to handle missing value for outcomes by listin
 ```r
 # the package can be downloaded from cran and github:
 
-install.packages("TipingPoint")
+## install.packages("TipingPoint")
 
 devtools::install_github("XikunHan/TippingPoint")
 
